@@ -16,10 +16,10 @@
 theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 locale: en-US
-title: "Hackers Can Do Anything"
-description: "Do what I love, Love what I do."
+title: "My Awesome Site"
+description: "It really is the best."
 baseurl: # the subpath of your site, e.g. "/blog"
-url: "https://kim-yeon-gyu-exlock.github.io"
+url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
@@ -30,12 +30,11 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: "UA-141251072-1" # Google Analytics id, e.g. "UA-NNNNNNNN-N"
-
-disqus_url: "http://disqus.com/by/code_gyu"
-disqus_id: "exlock-blog"
+google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
-    shortname: "exlock-blog" # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+twitter:
+  username: # site's Twitter username, e.g. "mmistakes"
 
 # Liquid
 liquid:
@@ -87,10 +86,15 @@ defaults:
       share: true
 
 # Site Author
-author: exlock
-  name: YeonGyu Kim
+author:
+  name:
   picture:
-  email: code.yeon.gyu@gmail.com
+  email:
+  twitter:
+  links:
+    - title:
+      url:
+      icon:
 
 # Footer Links
 footer_links:
