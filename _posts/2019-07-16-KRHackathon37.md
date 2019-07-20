@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "선린톤 준비과정"
-date: 2019-07-18 03:26:18 +0900
+date: 2019-07-16 03:26:18 +0900
 categories:
   [
     django,
