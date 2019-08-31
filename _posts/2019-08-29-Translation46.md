@@ -19,4 +19,4 @@ I translated the content of [this markdown](https://github.com/geohot/fromthetra
 
 - 트랜지스터에 관해서: FPGA(field programmable gate array)가 어떻게 트랜지스터를 만드는데 사용될 수 있는지, 그리고 IC(집적 회로) 들은 그저 믿을만한 패키지 안에있는 트랜지스터들이라는 것에 대해서 묘사합니다. (Look Up Table, 순람표)와 같은 내용을 이해합니다. 트랜지스터 이론에 대해 간단히 이야기 합니다만, 그러나 모든 프로젝트들은 서로가 있어야 하기때문에 뭔가를 만들 수는 없습니다.
 
-* Emulation -- 진짜 하드웨어의 한계에 다다르는것을 만드는게 이 코스의 목표입니다. Verilator(베릴로그 시뮬레이터)와 같은것들 사용하는것은 누구든 컴퓨터와 ㄴ로 수 있도록 해줄 것 입니다.
+* Emulation -- 진짜 하드웨어의 한계에 다다르는것을 만드는게 이 코스의 목표입니다. Verilator(베릴로그 시뮬레이터)와 같은것들 사용하는것은 누구든 컴퓨터와 놀 수 있도록 해줄 것 입니다.
