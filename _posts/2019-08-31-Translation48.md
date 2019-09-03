@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "트랜지스터에서 웹 브라우저까지: 지오핫 글 번역: 2편"
+title: "트랜지스터에서 웹 브라우저까지: 지오핫 글 번역: 3편"
 date: 2019-08-31 11:03:00 +0900
 categories: [translation]
 ---
