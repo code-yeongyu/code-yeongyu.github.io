@@ -38,7 +38,8 @@ sudo apt update;sudo apt install -y clang openssh-server tmux neovim python3-nvi
 sudo service ssh start
 ```
 
-### TMUX 사용법 익히기 https://seulcode.tistory.com/144  
+### TMUX 사용법 익히기
+https://seulcode.tistory.com/144  
 이곳의 설명을 참고하면서 잘 쓰고 있다.
 
 ### Nvim 설정
