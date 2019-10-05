@@ -33,7 +33,8 @@ SSH, TMUX, nvim을 설치하는 명령어이다.
 sudo apt update;sudo apt install -y clang openssh-server tmux neovim python3-nvim python3-dev
 ```
 
-### SSH 서버 설정 나는 기본 설정을 그대로 사용할것이라서 그냥 다음의 명령어로 서비스만 켜주었다.
+### SSH 서버 설정
+나는 기본 설정을 그대로 사용할것이라서 그냥 다음의 명령어로 서비스만 켜주었다.
 ```bash
 sudo service ssh start
 ```
