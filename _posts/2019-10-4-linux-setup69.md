@@ -25,12 +25,13 @@ categories: [unix, linux]
 - vim-airline-themes
 - vim-easytags
 - vim-misc
+2. ssh 자동로그인
 
 ## Step-by-step
 ### 일단 프로그램 설치부터!
 SSH, TMUX, nvim을 설치하는 명령어이다.
 ```bash
-sudo apt update;sudo apt install -y clang openssh-server tmux neovim python3-nvim python3-dev
+sudo apt update;sudo apt upgrade;sudo apt install -y clang openssh-server tmux neovim python3-neovim python3-dev
 ```
 
 ### SSH 서버 설정
@@ -153,4 +154,9 @@ sudo systemctl set-default multi-user.target
 만약 필요할 경우에는 다음의 명령어로 gui를 다시 활성화 해주도록 하자.
 ```bash
 sudo systemctl set-default graphical.target
+```
+
+# SSH 자동로그인
+```bash
+scp ~/.ssh/id_rsa.pub <계정명>@<ip>:~/.ssh/authorized_keys
 ```
