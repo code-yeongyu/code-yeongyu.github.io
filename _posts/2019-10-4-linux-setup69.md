@@ -29,9 +29,9 @@ categories: [unix, linux]
 
 ## Step-by-step
 ### 일단 프로그램 설치부터!
-SSH, TMUX, nvim을 설치하는 명령어이다.
+SSH, TMUX, nvim을 설치하고, 필요없는 패키지들을 삭제하는 명령어이다.
 ```bash
-sudo apt update;sudo apt upgrade;sudo apt install -y clang openssh-server tmux neovim python3-neovim python3-dev
+sudo apt update;sudo apt upgrade;sudo apt install -y clang openssh-server tmux neovim python3-neovim python3-dev;sudo apt remove -y --purge firefox libreoffice*; sudo apt clean -y;sudo apt autoremove -y;
 ```
 
 ### SSH 서버 설정
