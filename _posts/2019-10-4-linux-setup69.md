@@ -31,13 +31,19 @@ categories: [unix, linux]
 ### 일단 프로그램 설치부터!
 SSH, TMUX, nvim을 설치하고, 필요없는 패키지들을 삭제하는 명령어이다.
 ```bash
-sudo apt update;sudo apt upgrade;sudo apt install -y ctags clang openssh-server tmux neovim python3-neovim python3-dev;sudo apt remove -y --purge firefox libreoffice*; sudo apt clean -y;sudo apt autoremove -y;
+sudo apt update;sudo apt upgrade;sudo apt install -y git cmake ctags clang openssh-server tmux neovim python3-neovim python3-dev mutt sendmail libncurses5-dev gcc make git exuberant-ctags libssl-dev bison flex libelf-dev bc;sudo apt remove -y --purge firefox libreoffice*; sudo apt clean -y;sudo apt autoremove -y;
 ```
 
 ### SSH 서버 설정
 나는 기본 설정을 그대로 사용할것이라서 그냥 다음의 명령어로 서비스만 켜주었다.
 ```bash
 sudo service ssh start
+```
+
+위의 두가지를 한번에 실행시키는 명령어이다.
+
+```bash
+sudo apt update;sudo apt upgrade;sudo apt install -y git cmake ctags clang openssh-server tmux neovim python3-neovim python3-dev mutt sendmail libncurses5-dev gcc make git exuberant-ctags libssl-dev bison flex libelf-dev bc;sudo apt remove -y --purge firefox libreoffice*; sudo apt clean -y;sudo apt autoremove -y;sudo service ssh start;
 ```
 
 ### TMUX 사용법 익히기
