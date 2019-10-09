@@ -47,7 +47,7 @@ sudo apt update;sudo apt upgrade;sudo apt install -y git cmake ctags clang opens
 ```
 
 ### TMUX 사용법 익히기
-https://seulcode.tistory.com/144  
+[https://seulcode.tistory.com/144] 
 이곳의 설명을 참고하면서 잘 쓰고 있다.
 
 ### Nvim 설정
